@@ -15,6 +15,11 @@
   height: 2.8em !important;
  }
 
+.navbar-nav .svg-inline--fa,
+.contact-section .social a {
+  background: none !important;
+}
+
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
