@@ -87,8 +87,10 @@
   --bs-border-radius-xl: 1rem;
   --bs-border-radius-2xl: 2rem;
   --bs-border-radius-pill: 50rem;
-  --bs-link-color: #64a19d;
-  --bs-link-hover-color: #50817e;
+  /* --bs-link-color: #64a19d; */
+  --bs-link-color: #767676;
+  /* --bs-link-hover-color: #50817e; */
+  --bs-link-hover-color: #767676;
   --bs-code-color: #d63384;
   --bs-highlight-bg: #faf4e0;
 }
@@ -3902,9 +3904,11 @@ textarea.form-control-lg {
   padding: var(--bs-navbar-toggler-padding-y) var(--bs-navbar-toggler-padding-x);
   font-size: var(--bs-navbar-toggler-font-size);
   line-height: 1;
-  color: var(--bs-navbar-color);
+  /* color: var(--bs-navbar-color); */
+  color: #767676;
   background-color: transparent;
-  border: var(--bs-border-width) solid var(--bs-navbar-toggler-border-color);
+  /* border: var(--bs-border-width) solid var(--bs-navbar-toggler-border-color); */
+  border: var(--bs-border-width) solid #767676;
   border-radius: var(--bs-navbar-toggler-border-radius);
   transition: var(--bs-navbar-toggler-transition);
 }
@@ -10996,8 +11000,10 @@ body {
 #mainNav .navbar-toggler {
   font-size: 80%;
   padding: 0.75rem;
-  color: #64a19d;
-  border: 1px solid #64a19d;
+  /* color: #64a19d;
+  border: 1px solid #64a19d; */
+  color: #767676;
+  border: 1px solid #767676;
 }
 #mainNav .navbar-toggler:focus {
   outline: none;
